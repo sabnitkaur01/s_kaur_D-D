@@ -1,25 +1,18 @@
 # Drag&Drop crushing Bugs
-![Website logo ](/images/bottomRight.jpg)
+![backGround pic](/images/bottomRight.jpg)
 
 ## ``Drag&Drop``
 
+#Basic javascript stuff
 
+# this is the first time we used ``javascript`` and did drag and drop project. We learnt how to drag and drop pictures and we made puzzle box with different backgrounds.
 
-
-### This is the start of Javascript, and the basics of drag and drop stuffs.
-
-##  =>This activity was performed to learn Javascript in more detail. And perform drag and drop of things using Javascript. Moreover, at some point we were supposed to find the bug and having been told to solve that using references. The Final out should work like a complete Puzzle game where, User can interpret and complete the game.
-
-
-
-
-
-## prerequisities
-### Drag And Drop should work and the game should function in correct manner.
+## prerequities
+# drag and drop should work well there should not be any mistake.
 
 
 ## References:
-### W3school, Mozilla Developer (MDN web docs), Youtube
+# ``you-tube`` , ``w3 school`` and some other website links.
 
 ## Author  
-Sabnit kaur
+#Sabnit kaur
