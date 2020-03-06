@@ -43,7 +43,7 @@
 				console.log('dropped on a drop zone');
 
 			let currentImage = event.dataTransfer.getData("text/plain");
-			// add that image to drop zone where we adding our image 
+			// add that image to drop zone where we adding our image on
 			event.target.appendChild(document.querySelector(`#${currentImage}`));
 
 
