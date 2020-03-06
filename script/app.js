@@ -3,6 +3,7 @@
 	const puzzleButtons = document.querySelectorAll('#buttonHolder img'),
 				dropZones = document.querySelectorAll('.drop-zone'),
        	gameBoard = document.querySelector('.puzzle-board'),
+				puzzleZone = document.querySelector('.puzzle-pieces')
 				puzzlePieces = document.querySelectorAll('.puzzle-pieces img');
 
 	const pieceNames = ["topLeft", "topRight", "bottomLeft", "bottomRight"];
