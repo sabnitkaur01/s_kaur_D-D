@@ -3,7 +3,7 @@
 	const puzzleButtons = document.querySelectorAll('#buttonHolder img'),
 				dropZones = document.querySelectorAll('.drop-zone'),
        	gameBoard = document.querySelector('.puzzle-board'),
-				puzzleZone = document.querySelector('.puzzle-pieces')
+				puzzleZone = document.querySelector('.puzzle-pieces'),
 				puzzlePieces = document.querySelectorAll('.puzzle-pieces img');
 
 	const pieceNames = ["topLeft", "topRight", "bottomLeft", "bottomRight"];
@@ -32,14 +32,13 @@
 
 			if (this.childNodes.length === 0){
 			event.preventDefault();
-			console.log('dragged over a drop zone');
+			console.log('drag on drop zone');
 		}
 		event.dataTransfer.setData("src", this.class);
 	}
 
 			function allowDrop(event) {
 
-				// event.preventDefault();
 				console.log('dropped on a drop zone');
 
 			let currentImage = event.dataTransfer.getData("text/plain");
@@ -49,9 +48,10 @@
 
 		}
 
-		function resetButtons () {
-			for (let i = 0; i < puzzlePieces.length; i++) {
-					puzzleZone.appendChild(puzzlePieces[i]);
+		function resetTheButtons () {
+			for (let sab = 0; sab < puzzlePieces.length; sab++) {
+					puzzleZone.appendChild(puzzlePieces[sab]);
+					// debugger;
 			}
 		}
 	// add event handling here -> how is ythe user going to see our app?
@@ -60,7 +60,7 @@
 	// click on the button buttons to change the puzzle image we're working with
 	puzzleButtons.forEach(button => {
 		button.addEventListener('click', changeImageSet);
-		button.addEventListener('click', resetButtons);
+		button.addEventListener('click', resetTheButtons);
 	});
 
 	puzzlePieces.forEach(piece => piece.addEventListener('dragstart', allowDrag));
