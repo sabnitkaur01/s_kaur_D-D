@@ -30,21 +30,17 @@
 
 		function allowDragOver(event) {
 
-			if (this.childNodes.length === 0){
+			if (this.childNodes.length == 0){
 			event.preventDefault();
 			console.log('drag on drop zone');
 		}
 	}
 
 			function allowDrop(event) {
-
 				console.log('dropped on a drop zone');
-
 			let currentImage = event.dataTransfer.getData("text/plain");
 			// add that image to drop zone where we adding our image on
 			event.target.appendChild(document.querySelector(`#${currentImage}`));
-
-
 		}
 
 		function resetTheButtons () {
