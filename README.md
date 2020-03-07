@@ -1,5 +1,5 @@
 # Drag&Drop Crushing Bugs
-![backGround pic](/images/readme.png)
+![backGround pic](/images/puzzle2.png)
 
 ## ``Drag&Drop``
 
