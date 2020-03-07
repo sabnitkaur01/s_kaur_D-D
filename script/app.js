@@ -34,7 +34,6 @@
 			event.preventDefault();
 			console.log('drag on drop zone');
 		}
-		event.dataTransfer.setData("src", this.class);
 	}
 
 			function allowDrop(event) {
